@@ -1,16 +1,22 @@
+//RICHIESTA NOME
 let name = prompt ('come ti chiami?');
-console.log(name);
+//console.log(name);
 
+//RICHIESTA COGNOME
 let surname = prompt ('qual è il tuo cognome?');
-console.log(surname);
+//console.log(surname);
 
+//RICHIESTA COLORE
 let color = prompt ('qual è il tuo colore preferito?');
-console.log(color);
+//console.log(color);
 
+//AGGIUNTA NUMERO
 let num = 21;
-console.log(num)
+//console.log(num)
 
+//UNIONE ELEMENTI
 let pass = name + surname + color + num;
-console.log(pass)
+//console.log(pass)
 
+//PASSWORD RISULTANTE
 document.getElementById('password').innerHTML = `${pass}`
